@@ -35,10 +35,22 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     width: 50px;
     height: 2px;
-    background: #ccc;
+    background: #444;
     margin-top: 15px;
     
     
+}
+
+.dash.text-center:after {
+    margin: 15x auto 0;
+}
+
+.dash-white:after {
+    background: #fff;
+}
+
+header {
+    background: rgba(150,150,150 0.6);
 }
 
 /*header*/
@@ -74,4 +86,60 @@ h1,h2,h3,h4,h5,h6 {
        
        background: #E84c3d;
        color: #fff;
+   }
+   
+   .hello article {
+       
+       height: 100vh;
+       display: table-cell;
+       vertical-align: middle;
+       min-width: 1px;
+   }
+   
+   .hello {
+       background-size: cover;
+       
+   }
+   
+   .btn-danger, bg-danger {
+       
+       background-color: #E84C3D;
+   }
+
+   
+   
+   .service-item {
+       border: 1px solid #fff;
+   }
+    
+   .service-item:hover {
+       
+       background:#E84C3D;
+       borer-radius:5px;
+       border: 1px solid #E84C3D;
+       
+   }
+   .service-icon .fa {
+       
+       width: 90px;
+       height: 90px;
+       line-height: 90px;
+       background: #E84C3D;
+       color: #fff;
+       font-size: 40px;
+       transition: 0.5s ease;
+       border-radius: 50%;
+   }
+   
+   .service-item:hover .service-icon.fa {
+       
+       background: #fff;
+       color: #E84C3D;
+   }
+   
+   .portofolio {
+       
+       padding: 100px 0;
+       background-size: cover;
+       
    }
