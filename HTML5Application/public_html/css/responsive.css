@@ -1,0 +1,55 @@
+
+@media(min-width:576px){
+    
+    
+}
+
+
+@media(min-width:768px){
+    
+    .navbar-nav .nav-link {
+    
+    
+    color: #333B46;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease;
+    
+}
+
+   .navbar-nav .nav-link:hover,
+   .navbar-nav .nav-item.active .nav-link:active {
+       
+       background: transparent;
+       color: #e84c3d;
+       border-bottom: 2px solid #e84c3d;
+   }
+    
+}
+
+
+
+@media(min-width:992px){
+
+
+
+    
+}
+
+
+@media(min-width:1200px){
+      
+    
+    .navbar-nav .nav-link {
+    
+    
+  
+    padding: 5px 20px;
+  
+}
+    
+}
+
+
+
+
